@@ -1,5 +1,5 @@
 //
-//  maio.c
+//  main.c
 //  fft
 //
 //  Created by 安志钢 on 16-10-13.
