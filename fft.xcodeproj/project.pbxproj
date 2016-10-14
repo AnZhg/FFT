@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		264B4C3B1DB01A1E00D4905B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 264B4C3A1DB01A1E00D4905B /* main.c */; };
 		264B4C3D1DB01A1E00D4905B /* fft.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 264B4C3C1DB01A1E00D4905B /* fft.1 */; };
+		264B4C451DB01A4000D4905B /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 264B4C441DB01A4000D4905B /* fft.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		264B4C371DB01A1E00D4905B /* fft */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fft; sourceTree = BUILT_PRODUCTS_DIR; };
 		264B4C3A1DB01A1E00D4905B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		264B4C3C1DB01A1E00D4905B /* fft.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fft.1; sourceTree = "<group>"; };
+		264B4C431DB01A3500D4905B /* fft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		264B4C441DB01A4000D4905B /* fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fft.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				264B4C3A1DB01A1E00D4905B /* main.c */,
+				264B4C431DB01A3500D4905B /* fft.h */,
+				264B4C441DB01A4000D4905B /* fft.c */,
 				264B4C3C1DB01A1E00D4905B /* fft.1 */,
 			);
 			path = fft;
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				264B4C3B1DB01A1E00D4905B /* main.c in Sources */,
+				264B4C451DB01A4000D4905B /* fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +222,7 @@
 				264B4C421DB01A1E00D4905B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
